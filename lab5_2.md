@@ -22,7 +22,7 @@ In Linux every file/folder has 3 types of users:
 ### permission layout:
 
 Example from ls -l
-![images](first.png)
+![images](./images/first.png)
 
 *** Breakdown ***
 
@@ -66,7 +66,7 @@ add them up:
  * others:5 ==> r-x
 
  ##### snapshot
- ![images](scnd.png)
+ ![images](./images/scnd.png)
 
   2. chmod 000 lab5_2.md
 
@@ -77,7 +77,7 @@ add them up:
  * others:0 ==> ---
 
  ##### snapshot
- ![images](thrd.png)
+ ![images](./images/thrd.png)
 
   3. chmod 777 lab5_2.md
 
@@ -88,7 +88,7 @@ add them up:
  * others:7 ==> rwx
 
  ##### snapshot
- ![images](frth.png)
+ ![images](./images/frth.png)
 
 
  #### (B) Symbolic Method
@@ -104,22 +104,22 @@ add them up:
 1. chmod u+x lab5_2.md
 
 ##### snapshot;
-![images](fvt.png)
+![images](./images/fvt.png)
 
 2. chmod a+r lab5_2.md
 
 ##### snapshot;
-![images](sxt.png)
+![images](./images/sxt.png)
 
 3. chmod o=r lab5_2.md
 
 ##### snapshot;
-![images](svnt.png)
+![images](./images/svnt.png)
 
 4. chmod g-w lab5_2.md
 
 ##### snapshot;
-![images](egth.png)
+![images](./images/egth.png)
 
 
 #### (C) Recursive Changes
@@ -130,7 +130,7 @@ add them up:
 chmod -R 755 Linux_lab
 
 ##### snapshot;
-![images](recursive.png)
+![images](./images/recursive.png)
 
 
 
@@ -159,9 +159,9 @@ sudo chown -R lavish:dev Linux_lab
 
 ##### snapshots;
 
-(a) ![images](nnt.png)
-(a) ![images](tnt.png)
-(a) ![images](elvnt.png)
+(a) ![images](./images/nnt.png)
+(a) ![images](./images/tnt.png)
+(a) ![images](./images/elvnt.png)
 
 
 
