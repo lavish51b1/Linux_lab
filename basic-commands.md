@@ -5,10 +5,20 @@ We will be walking through basic linux command
 
 ## "ls"
 ### usage
-   list files and directory in current folder
+    list files and directory in current folder
 
 ### snapshot
 ![images](./images/ls.png)
+
+
+## "cd file.txt"
+### usages
+    open the given file
+
+
+## "cd .."
+### usage
+    returns one step back to parent folder
 
 
 
@@ -36,7 +46,7 @@ We will be walking through basic linux command
 
   list down all files and and folder incuding the current one
 ### snapshot
-![images](./images/ls -a.png)
+![images](./images/ls-a.png)
 
 
 ## "ls -la"
@@ -45,7 +55,7 @@ We will be walking through basic linux command
    list down all files and and folder incuding the current one in long listing format
 
 ### snapshot
-![images](./images/ls -la.png)
+![images](./images/ls-la.png)
 
 
 ## "touch file.txt"
@@ -53,7 +63,8 @@ We will be walking through basic linux command
 
    create new empty file
 
-![images](./images/touch file.txt)
+![images](./images/touchfile.png)
+
 
 ## "cp"
 ### usages
@@ -84,3 +95,16 @@ We will be walking through basic linux command
 ### usages
 
    display content in termial
+
+
+
+## "clear" 
+### usages
+
+   clears the terminal!!
+
+
+
+
+### and some more........
+
