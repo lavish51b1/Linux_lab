@@ -304,10 +304,10 @@ chown [options] new_owner:new_group filename
 ### Examples:
 
 ```bash
-chown ashish.txt         # Change owner to user 'sameer'
-chown ashish:dev.txt       # Change owner to 'sameer' and group to 'dev'
-chown ashish:dev file.txt            # Change only group to 'dev'
-chown -R ashish:dev /project    # Recursive ownership change
+chown lavish.txt         # Change owner to user 'sameer'
+chown lavish:dev.txt       # Change owner to 'sameer' and group to 'dev'
+chown lavish:dev file.txt            # Change only group to 'dev'
+chown -R lavish:dev /project    # Recursive ownership change
 ```
 # **Practice Experiment on `chown`**
 
@@ -354,7 +354,7 @@ ls -l testfile.txt
 Example:
 
 ```
--rw-rw-r--1 sameerchoudhary sameerchoudhary 0 Aug 20 18:52 testfile.txt
+-rw-rw-r--1 Lavish-goyal Lavish-goyal 0 Aug 20 18:52 testfile.txt
 ```
 
 ---
