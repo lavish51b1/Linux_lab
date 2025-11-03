@@ -76,13 +76,13 @@ ssh username@<your-public-IP>
 ```
 or better yet, use a dynamic DNS (DDNS) service like No-IP or DuckDNS so you can use a hostname instead of changing IPs.
 
-![alt text](images/img74.png)
+![alt text](images/16.png)
 
-![alt text](images/img73.png)
+![alt text](images/12.png)
 
-![alt text](images/img72.png)
+![alt text](images/13.png)
 
-![alt text](images/img71.png)
+![alt text](images/15.png)
 
 # 🏠 GUI
 
@@ -110,9 +110,9 @@ sudo chown -R frienduser:frienduser /home/frienduser/.ssh
 
 ```
 
-![alt text](images/img78.jpeg)
+![alt text](images/17.png)
 
-![alt text](images/img79.jpeg)
+![alt text](images/18.png)
 Verify sshd is running:
 ```
 sudo systemctl status ssh --no-pager
@@ -137,7 +137,7 @@ ssh -p 22 -X frienduser@FRIEND_IP
 # once connected, run a simple GUI test:
 xeyes &    # or gedit & or xclock &
 ```
-![alt text](images/img76.png)
+![alt text](images/19.png)
 Success criteria: the GUI app window appears on your laptop and is responsive.
 
 Troubleshooting quick checks:
@@ -159,7 +159,7 @@ On friend’s laptop (as frienduser):
 vncserver :1
 # optionally stop with: vncserver -kill :1
 ```
-![alt text](images/img77.jpeg)
+![alt text](images/19.png)
 (Configure desktop environment in ~/.vnc/xstartup if needed — many distros auto-configure.)
 
 On your laptop: create a local SSH tunnel (keeps VNC server bound to localhost on remote; only SSH port open externally)
@@ -171,7 +171,7 @@ ssh -L 5901:localhost:5901 -p 22 frienduser@FRIEND_IP -N &
 ```
 Then open your VNC viewer and connect to:
 
-![alt text](images/img75.png)
+![alt text](images/11.png)
 
 ```
 localhost:5901
