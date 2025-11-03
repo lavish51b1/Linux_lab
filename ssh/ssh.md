@@ -1,4 +1,4 @@
-# 🏠 Case 1: Mac and Ubuntu on the same network
+# 🏠 Case 1: Victus and Ubuntu on the same network
 ## ✅Step 1: Enable SSH on Ubuntu
 
 On Ubuntu, install and enable SSH:
