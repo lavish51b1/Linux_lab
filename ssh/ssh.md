@@ -22,25 +22,26 @@ Run:
 ```
 hostname -I
 ```
-![images](Linux_lab/ssh/images/11.png)
-You’ll get something like 192.168.1.42.
+![images](images/11.png)
+You’ll get something like 192.168.101.132
 
 ## ✅ Step 3: Connect from Victus
 
 On your Victus, open Terminal and run:
 
 ```
-ssh username@192.168.1.42
+ssh username@192.168.101.132
 ```
 Replace username with your Ubuntu username.
 
 Enter your password when prompted — you’re in! ✅
 
-![alt text](images/img68.png)
+![alt text](images/12.png)
+![alt text](images/13.png)
 
 # ON VICTUS
 
-![alt text](images/img70.png)
+![alt text](images/15.png)
 
 # 🌐 Case 2: Victus and Ubuntu on different networks (e.g., home ↔ office or remote server)
 
@@ -63,7 +64,7 @@ If your Ubuntu computer is behind a router:
 
 1. Find your Ubuntu’s local IP:
 hostname -I
-![alt text](images/img69.png)
+![alt text](images/11.png)
 
 2. Log in to your router and port-forward port 22 to that IP.
 
